@@ -1,28 +1,40 @@
-# Student Project Configuration Repository
+# 13组剧本杀店铺管理系统配置库
 
-This repository is used as the configuration management library for the course project.
+本仓库用于保存“剧本杀店铺管理系统”课程项目的配置项，包括项目管理文档、需求与设计资料、图表、示例代码、配置模板、数据库脚本和阶段发布说明。
 
-## Managed Items
+## 项目说明
 
-- Project management documents
-- Technical documents
-- Source code and configuration files
-- Database scripts
-- Release packages and release notes
+- 项目名称：剧本杀店铺管理系统
+- 小组：13组
+- 成员：阮秋予、文浩轩
+- 配置管理工具：Git 本地仓库和 GitHub 远程仓库
 
-## Directory Structure
+## 配置项范围
 
-- `docs/project-management/`: project charter, cost plan, schedule plan, meeting records
-- `docs/technical/`: requirements, design, test and deployment documents
-- `src/`: program source files
-- `config/`: environment and application configuration files
-- `database/`: database schema and migration scripts
-- `scripts/`: build, test and deployment scripts
-- `release/`: release notes and version packages
+- 项目管理文档：项目章程、招标文件、WBS、成本估算、进度计划
+- 技术文档：需求分析文档、系统说明文档、用例图、活动图
+- 程序文件：系统演示代码和后续源代码
+- 配置文件：环境变量示例和应用配置模板
+- 数据库脚本：核心数据表建表脚本
+- 辅助脚本：构建、检查或部署脚本
+- 发布材料：阶段版本说明
 
-## Permission Plan
+## 目录结构
 
-- Project leader / configuration administrator: Owner, maintains repository, branches and releases
-- Developer: Write, commits code through branches and pull requests
-- Tester: Triage or Read, records issues and reviews test documents
-- Teacher / reviewer: Read, checks repository structure and deliverables
+- `docs/project-management/`：项目管理类文档
+- `docs/project-management/procurement/`：招标与采购相关资料
+- `docs/project-management/planning/`：WBS、成本估算、进度计划
+- `docs/technical/requirements/`：需求分析文档
+- `docs/technical/design/`：系统说明和设计资料
+- `docs/technical/diagrams/`：用例图、活动图等图表
+- `src/`：系统源代码或演示代码
+- `config/`：配置模板，不保存真实账号密码
+- `database/`：数据库建表和初始化脚本
+- `scripts/`：构建、检查或部署脚本
+- `release/`：阶段版本说明
+
+## 权限计划
+
+- 阮秋予：配置管理员，负责仓库维护、目录检查、版本说明和阶段材料整理。
+- 文浩轩：协作成员，负责本人模块相关文档、代码、脚本和配置项维护。
+- 任课教师：查看权限，用于检查配置库结构和项目交付物。
